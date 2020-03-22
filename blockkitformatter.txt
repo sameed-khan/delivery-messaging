@@ -1,0 +1,45 @@
+{
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "text": "*New Order!!*",
+                    "type": "mrkdwn"
+                },
+                "fields": [
+                    {
+                        "type": "mrkdwn",
+                        "text": "*Name*"
+                    },
+                    {
+                        "type": "plain_text",
+                        "text": `${name}`
+                    },
+                    {
+                        "type": "mrkdwn",
+                        "text": "*Address*"
+                    },
+                    {
+                        "type": "plain_text",
+                        "text": `${address}`
+                    },
+                    {
+                        "type": "mrkdwn",
+                        "text": "*Phone Number*"
+                    },
+                    {
+                        "type": "plain_text",
+                        "text": `${phone_number}`
+                    },
+                    {
+                        "type": "mrkdwn",
+                        "text": "*Additional Comments*"
+                    },
+                    {
+                        "type": "plain_text",
+                        "text": `${comments}`
+                    }
+                ]
+            }
+        ]
+    }
